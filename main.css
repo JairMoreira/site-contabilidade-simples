@@ -103,10 +103,12 @@ section.active p /* define o estilo dos parágrafos na seção ativa */
     font-size: 1.2em;
   }
 
-  #contato
-  {
-    padding: 1em;    
+  #contato {
+  padding: 1em;
+  background-size: cover;
+  background-position: center;
   }
+
 }
 
 
