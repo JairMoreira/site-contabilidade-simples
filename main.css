@@ -1,0 +1,86 @@
+body /* define o estilo do corpo da página */
+{
+    font-family: Arial, sans-serif; /* define a fonte padrão */
+    margin: 0; /* remove a margem padrão do body */
+    background: #f4f4f4; /* define a cor de fundo */
+}
+
+header /* define o estilo do cabeçalho da página */
+{
+     background: #01080e; /* cor de fundo do cabeçalho */
+     color: #a5a204; /* cor do texto do cabeçalho */
+     padding: 2em 1em; /* espaçamento interno do cabeçalho */
+     text-align: center; /* centraliza o texto do cabeçalho */
+     font-family: Arial, Helvetica, sans-serif; /* define a fonte do cabeçalho */
+}
+
+header h1 /* define o estilo do título no cabeçalho */
+{
+    font-size: 3.0em; /* tamanho da fonte do título */
+    margin: 0; /* remove a margem padrão do título */
+}
+
+header p /* define o estilo do parágrafo no cabeçalho */
+{
+    font-size: 1.2em; /* tamanho da fonte do parágrafo */
+    margin: 0.5em 0; /* espaçamento acima e abaixo do parágrafo */
+}
+
+nav /* define o estilo do menu de navegação */
+{ 
+    background: #2c3e50; /* cor de fundo do menu */
+    padding: 1em; /* espaçamento interno do menu */   
+    text-align: left; /* alinha o texto à esquerda */
+   
+}
+
+nav a /* define o estilo dos links do menu */
+ { 
+    color: #fff; /* cor do texto dos links */
+    margin: 0 1em; /* espaçamento entre os links */
+    text-decoration: none; /* remove o sublinhado dos links */ 
+    font-size: 1.2em; /* tamanho da fonte dos links */   
+}
+
+section /* define o estilo das seções da página */
+{ 
+  padding: 2em; /* espaçamento interno */
+  text-align: center; /* centraliza o texto */
+  /* Seleciona o elemento e aplica a imagem de fundo */
+  background-image: url('imagens/pexels-anntarazevich-5196820.jpg'); /* caminho para a imagem de fundo */
+  background-size: cover; /* cobre toda a área do elemento */
+  background-attachment: fixed; /* fixa a imagem de fundo */
+  background-position: center; /* centraliza a imagem de fundo */
+  background-size: cover; /* cobre toda a área do elemento */
+  background-repeat: no-repeat; /* não repete a imagem de fundo */
+  color: #fff; /* texto branco para contraste com fundo */
+  display: none; /* esconde as seções por padrão */
+  /* Overlay escuro com transparência */
+  background-color: rgba(0, 0, 0, 0.8); /* preto com 50% de opacidade */
+  background-blend-mode: overlay; /* mistura a cor de fundo com a imagem */
+  font-size: 1.5em; /* tamanho da fonte */
+  background-position: bottom; /* posiciona a imagem de fundo na parte inferior */
+ 
+}
+
+section.active /* define o estilo da seção ativa */
+{ 
+    display: block; /* exibe a seção ativa */
+    min-height: 100vh; /* vh = viewport height (100% da tela) */
+}
+
+section.active h2 /* define o estilo dos títulos na seção ativa */
+{ 
+    font-size: 1.8em; /* tamanho da fonte dos títulos */
+    margin-bottom: 1em; /* espaçamento abaixo do título */
+}
+
+section.active p /* define o estilo dos parágrafos na seção ativa */
+{ 
+    font-size: 1.2em; /* tamanho da fonte dos parágrafos */
+    line-height: 1.5; /* altura da linha para melhor legibilidade */
+    text-align: justify; /* justifica o texto */    
+}
+
+
+
