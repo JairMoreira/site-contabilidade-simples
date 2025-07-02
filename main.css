@@ -81,32 +81,39 @@ section.active p /* define o estilo dos parágrafos na seção ativa */
     text-align: justify; /* justifica o texto */    
 }
 
-@media (max-width: 768px) {
-  body {
+@media (max-width: 768px) /* define estilos para telas menores que 768px */
+{
+  body
+  {
     font-size: 16px;
   }
 
-  header h1 {
+  header h1 
+  {
     font-size: 1.8em;
   }
 
-  nav {
+  nav 
+  {
     text-align: center;
     padding: 0.5em;
   }
 
-  section h2 {
+  section h2 
+  {
     font-size: 2em;
   }
 
-  section p {
+  section p 
+  {
     font-size: 1.2em;
   }
 
-  #contato {
-  padding: 1em;
-  background-size: cover;
-  background-position: center;
+  #contato 
+  {
+    padding: 1em;
+    background-size: cover;
+    background-position: center;
   }
 
 }
